@@ -1,0 +1,24 @@
+﻿<h2>Project Information: Dynamic Timetable Generator</h2>
+
+<p>Hello, my name is <strong>Sandip Surati</strong>, and this is a basic overview of how I created this project.</p>
+
+<p>This application allows users to generate a weekly timetable dynamically based on a few input values. The main idea is simple: the system asks for some user input and then generates a subject-wise timetable accordingly.</p>
+
+<h3>Key Concept:</h3>
+<p>Each period is considered as one hour. Therefore, the total number of hours per week is calculated as:</p>
+<p><strong>Total Weekly Hours = Working Days × Subjects per Day</strong></p>
+
+<p>I have used <strong>jQuery</strong> and <strong>AJAX</strong> to update the interface dynamically without reloading the page. This improves the user experience and keeps the process smooth.</p>
+
+<h3>Working Steps:</h3>
+<ol>
+    <li>First, we collect input from the user (Working Days, Subjects per Day, and Total Subjects).</li>
+    <li>After the input, subjects are selected randomly based on the number provided.</li>
+    <li>The user then enters hours for each subject. The total of these hours must match the weekly total calculated from the formula.</li>
+    <li>I have added static subject inputs for this version (although I can create a subject management module if needed). The focus was on delivering the core functionality.</li>
+    <li>Using AJAX and DOM manipulation, the table is created instantly without reloading the page.</li>
+    <li>Every time a user gives the same input, the system generates a different timetable based on the logic.</li>
+    <li>This helps demonstrate dynamic generation, randomness, and user input handling in a structured way.</li>
+</ol>
+
+<p>This version is built using <strong>HTML</strong>, <strong>jQuery</strong>, and <strong>.NET MVC/Core</strong> as the backend technology. I have used <strong>Bootstrap</strong> for basic styling, but no icons or heavy design frameworks — the focus is purely on core logic and user interaction.</p>
